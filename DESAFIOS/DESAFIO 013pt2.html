@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 013pt2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;  
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 7px;
+            
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 11px;
+        }
+        
+        .cinza {
+            background-color: rgb(153, 153, 153);
+            padding: 7px;
+            text-align: left;
+            color: white;
+        }
+        .cinza2 {
+            background-color: rgb(153, 153, 153);
+            color: white;
+
+        }
+        #area {
+            width: 50px;
+            height: 50px;
+        }
+        #disciplinas {
+            width: 50px;
+        }
+        #notas {
+            width: 100px;
+        }
+        #centro {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="cinza2">
+                <th id="area">Área</th>
+                <th id="disciplinas">Disciplinas</th>
+                <th colspan="2" id="notas">Notas</th>
+                <th>Média</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="cinza">Média de Exatas</th>
+                <td class="cinza" id="centro">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+                <td id="centro">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="cinza">Média de Humanas</th>
+                <td class="cinza" id="centro">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
